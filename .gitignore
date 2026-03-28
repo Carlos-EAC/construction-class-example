@@ -1,0 +1,14 @@
+# Ignore extension-less files (executables)
+*
+!*/
+!*.*
+
+# Ignore .txt output files
+*.txt
+!README.txt
+
+# Ignore debugger files (.dSYM directories)
+*.dSYM/
+
+# Ignore MacOS files (.DS_Store)
+.DS_Store
