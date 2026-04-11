@@ -1,0 +1,36 @@
+body {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+/* I'm trying to emulate the utilitarian design of some old websites (eg Wikipedia's old skin, see the sidebar in https://en.wikipedia.org/wiki/Main_Page?useskin=vector) */
+.menu {
+  font-family: Helvetica, sans-serif;
+  background-color: #D3D3D3; /* #D3D3D3 is light gray */
+  margin-top: 0px;
+  padding-top: 0px;
+  font-size: 20px;
+}
+
+.menu ul {
+  display: flex;
+  list-style-type: none;
+  margin-top: 0px;
+  padding-top: 5px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 5px;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.menu a {
+  text-decoration-line: none;
+  color: #0000a0; /* #0000a0 is a dark blue */
+}
+
+.menu a:hover {
+  color: #0000EE; /* #0000EE is the default lint color */
+  text-decoration: underline;
+}
