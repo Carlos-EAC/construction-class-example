@@ -31,6 +31,6 @@ body {
 }
 
 .menu a:hover {
-  color: #0000EE; /* #0000EE is the default lint color */
+  color: #0000EE; /* #0000EE is the default link color */
   text-decoration: underline;
 }
